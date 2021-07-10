@@ -14,5 +14,4 @@ public class Unit1Task8 {
             System.out.println("Большее число " + second);
     }
 }
-
 // Ввести 2 числа с клавиатуры используя Scanner или BufferedReader. Вывести большее из них.
