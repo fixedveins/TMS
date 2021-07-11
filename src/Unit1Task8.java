@@ -10,8 +10,11 @@ public class Unit1Task8 {
 
         if (first>second) {
             System.out.println("Большее число " + first);
-        } else
+        } else if (second>first) {
             System.out.println("Большее число " + second);
+        } else  {
+            System.out.println("Числа равны");
+        }
     }
 }
 // Ввести 2 числа с клавиатуры используя Scanner или BufferedReader. Вывести большее из них.

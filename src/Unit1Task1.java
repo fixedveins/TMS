@@ -1,23 +1,22 @@
 public class Unit1Task1 {
     public static void main(String[] args) {
+        int x = -142132;
 
-        int y = -314;
-        int x = Math.abs(y);
+         if (x < 0) {
+            System.out.print(x + " Это отрицательное ");
+        } else if (x > 0) {
+            System.out.print(x + " Это положительное ");
+        } else {
+             System.out.print("Это число 0");
+         }
 
-        if ((x > 0) & (x < 10)) {
-            System.out.print(y + " это однозначное ");
-        } else if ((x >= 10) & (x < 100)) {
-            System.out.print(y + " это двухзначное ");
-        } else if ((x >= 100) & (x < 1000)) {
-            System.out.print(y + " это трехзначное ");
-        } else if ((x >= 1000) & (x < 10000)) {
-            System.out.print(y + " это четырезначное ");
+        if ((x >-10) && (x < 10)) {
+            System.out.print(" однозначное число");
+        } else if ((x >-100) && (x < 100)) {
+            System.out.print(" двухзначное число ");
+        } else {
+            System.out.print(" трехзначное или более число ");
         }
-        if (y < 0) {
-            System.out.print("отрицательное число");
-        } else if (y > 0) {
-            System.out.print("положительное число");
-        } else System.out.print("Это однозначное число число 0");
     }
 }
 //        В переменную записываем число. Надо вывести на экран сколько в этом

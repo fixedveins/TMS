@@ -1,12 +1,16 @@
 public class Unit1Task3 {
     public static void main(String[] args) {
-        int Number = -124;
-        if (Number>0) {
-            Number += 1;
-        } else if (Number<0) {
-            Number -= 2;
-        } else Number = 10;
-        System.out.println(Number);
+
+//Имя переменной всегда начинается с маленькой буквы.
+        int number = -234;
+        if (number>0) {
+            number += 1;
+        } else if (number<0) {
+            number -= 2;
+        } else {
+            number = 10;
+        }
+        System.out.println(number);
     }
 }
 //        Дано целое число. Если оно является положительным, то прибавить к нему 1.
